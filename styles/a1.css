@@ -60,3 +60,59 @@ background-size: cover;
 .section{
     padding:37px 0 200px 0;
 }
+/*main*/
+.smain{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 48px;
+    padding-left: 203px;
+    padding-right:203px;
+    padding-top: 50px;
+}
+.smain div{
+    margin:20px;
+    justify-content: space-between;
+}
+
+.image{
+    width: 403px;px;
+    height:328px;
+    border-radius: 48px;
+
+}
+/*header 2nd*/
+.shead{
+    font-size:30px;
+    font-weight:800px;
+    color:#252432;
+    
+
+
+}
+.para{
+    font-size:18px;
+    font-weight:400;
+    color:rgba(37,36,50,0.5);
+
+    
+
+
+}
+/*flex 2ndsection*/
+.secsection{
+    display:flex;
+    justify-content: center;
+    padding:80px 80px 80px 80px;
+
+
+}
+.theader{
+    padding:40px;
+    font-size: 38px;
+    font-weight:Bold;
+    
+}
+
+
+
