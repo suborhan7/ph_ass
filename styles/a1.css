@@ -337,3 +337,41 @@ background-size: cover;
 
 
 
+.foot{
+    height: 428px;
+    width:1440px;
+    background-color: #FFFFFF;
+   
+    text-align: center;
+    
+}
+.footerlinks{
+    list-style: none;
+    padding: 0;
+    margin:20px 0 0 0;
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    color:#8987A1;
+
+}
+.logo{
+    font-size:100px ;
+    font-weight: bolder;
+    color: #4E47FF;
+   
+}
+.lastmessage{
+    color:#8987A1;
+    font-size: ;
+    font-weight: ;
+}
+.footerlinks li a{
+    text-decoration: none;
+    color:#8987A1;
+
+
+}
+
+/*footer part sesh*/
+/*project done Alhamdulillah*/
