@@ -253,6 +253,7 @@ background-size: cover;
         text-align: center;
         padding: 20px;
         color:#FFFFFF;
+        background-color: #FFFFFF;
 
 
 
@@ -288,8 +289,51 @@ background-size: cover;
      }
 
      /*READY TO FOCUS PART SESH*/
-     
+     /*form part*/
+     .formsection{
+        width:1140px;
+        height:632px;
+        margin:0 auto;
+        display:flex;
+        gap:40px;
+        padding 40px;
+        box-sizing:border-box;
+        
+        border-radius: 20px;
+     }
+     .formheader{
+        font-size: 97px;
+        flex: 1;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding:20px;
 
+     }
+     .contact-form{
+        flex: 1;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+        border-radius: 12px;
+        height:490px;
+        width:497px;
+        box-sizing:border-box;
+     }
+.label{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.mbox{
+    min-height: 130px;
+    background-color: #FFFFFF;
+}
+.ebox{
+     background-color: #FFFFFF;
+}
+/*form part sesh*/
 
 
 
