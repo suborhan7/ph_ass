@@ -187,5 +187,50 @@ background-size: cover;
     color: #333;
 }
 
+/* making the 4 reviews come side by side */
+       
+.reviewsection {
+        padding:50px;
+        background: #f9f9f9;
+        text-align: center;
+
+}
+.reviewheader {
+        font-size: 42px;
+        margin-bottom: 40px;
+        font-weight:bold;
+        color:#252432;
+    }
+.review-container {
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap:20px;
+
+}
+.review-card {
+      text-align: left;
+      border-radius: 12px;
+      box-sizing: border-box;
 
 
+    }
+.stars img {
+        width: 20px;
+        height: 20px;
+    }
+   .review-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .review-text {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+    /* making the 4 reviews come side by side er segment sesh */
+
+    
