@@ -190,9 +190,13 @@ background-size: cover;
 /* making the 4 reviews come side by side */
        
 .reviewsection {
-        padding:50px;
-        background: #f9f9f9;
+        padding:20px;
+        
         text-align: center;
+        width:1140px;
+        box-sizing: border-box;
+        padding-left: 100px;
+        gap:50px
 
 }
 .reviewheader {
@@ -200,18 +204,27 @@ background-size: cover;
         margin-bottom: 40px;
         font-weight:bold;
         color:#252432;
+        padding: 50;
     }
 .review-container {
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
       gap:20px;
+      
+
+      
 
 }
 .review-card {
       text-align: left;
-      border-radius: 12px;
+      border-radius: 14px;
       box-sizing: border-box;
+      padding:20px;
+      margin-bottom: 20px;
+      background-color:#eae7e780;
+
+      
 
 
     }
@@ -232,5 +245,51 @@ background-size: cover;
         margin-bottom: 15px;
     }
     /* making the 4 reviews come side by side er segment sesh */
+     /* focus section shuru*/
 
-    
+     .focussection{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        color:#FFFFFF;
+
+
+
+
+
+     }
+     .focussectioncontent{
+        justify-content: center;
+        
+        padding:;
+     }
+     .focusheader{
+        font-size: 50px;
+        font-weight:bold ;
+        color:#000000;
+     }
+     .fsubhead{
+        font-size: ;
+        font-weight: ;
+        color:#00000080;
+        width: 487;
+        height:22;
+
+
+     }
+     .gbutton{
+        margin-bottom: 20px;
+
+
+     }
+     .bimage{
+        border-radius:48px ;
+     }
+
+     /*READY TO FOCUS PART SESH*/
+     
+
+
+
+
