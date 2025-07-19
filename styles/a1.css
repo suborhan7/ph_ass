@@ -162,6 +162,30 @@ background-size: cover;
     color:#00000080;
 }
 
+/*joined thousands done*/
+/*review section star*/
+.profile {
+    display: flex;
+    align-items: center;
+     gap: 10px;              /* Space between image and text */
+    margin-top: 15px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column; /* Stack name and date vertically */
+    font-size: 12px;
+    color: #666;
+}
+.profile-name {
+    font-weight: bold;
+    color: #333;
+}
 
 
 
